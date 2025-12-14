@@ -1,0 +1,247 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrador",
+      "email": "admin@email.com",
+      "password_hash": "$2b$12$f6i.zyY1uhIbdV8qmVOrHuxWv39zmsDF.AQgg/u9gVcfyVnLXCuvK",
+      "user_type": "admin",
+      "created_at": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 9,
+      "name": "Carlos Silva",
+      "email": "carlos@email.com",
+      "password_hash": "$2b$12$MKG9LYsaIuNhoRm.NLKUZe0rdZocsa9j0lZpF9HGe3m3cgAMto9Xe",
+      "user_type": "admin",
+      "created_at": "2025-11-25T15:25:31.080526"
+    },
+    {
+      "id": 12,
+      "name": "Felipe Silva",
+      "email": "felipe@email.com",
+      "password_hash": "$2b$12$cl6RATc4RPGtj1LYihcwHOjhHkZUxbsCSx2WDpv0.AUcz95ekPlFG",
+      "user_type": "cliente",
+      "created_at": "2025-11-26T19:19:10.188156"
+    },
+    {
+      "id": 2,
+      "name": "daniele maria",
+      "email": "danielemaria@email.com",
+      "password_hash": "$2b$12$cFaVfbCc0P5eOQLR9k9b0ux60wpYsM4jT62U3I4VSA/StAL5jV5lq",
+      "user_type": "cliente",
+      "created_at": "2025-12-01T19:33:33.883698"
+    },
+    {
+      "id": 3,
+      "email": "teste@exemplo.com",
+      "password_hash": "$2b$12$TCBTDWtKpZZPPLRE9YNeeuf1Z8971sHjDdSmefGz0Eo8LHNjb4s/K",
+      "created_at": "2025-12-01T21:52:46.001496"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Notebook Dell Inspiron 15",
+      "description": "Notebook com Intel Core i5, 8GB RAM, 256GB SSD",
+      "category": "Eletrônicos",
+      "image_url": "https://imgs.casasbahia.com.br/55066981/3g.jpg?imwidth=500",
+      "created_at": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 15 Pro 128GB",
+      "description": "Smartphone Apple com câmera profissional",
+      "category": "Celulares",
+      "image_url": "https://www.iplacecorp.com.br/ccstore/v1/images/?source=/file/v6551382571393836964/products/226672.04-apple-iphone-15-pro-128gb-titanio-preto-mtuv3be-a.jpg&height=475&width=475",
+      "created_at": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 3,
+      "name": "Smart TV Samsung 55\"",
+      "description": "TV 4K UHD com HDR e Smart Hub",
+      "category": "Eletrônicos",
+      "image_url": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/472976/xlarge/Smart-TV-Samsung-55-Polegadas-4K-UHD-3-HDMI-1-USB-Wi-Fi-Un55cu7700gxzd_1744806040.jpg",
+      "created_at": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 4,
+      "name": "Fone JBL Tune 510BT",
+      "description": "Fone de ouvido Bluetooth com microfone",
+      "category": "Áudio",
+      "image_url": "https://m.media-amazon.com/images/I/61FUX7QmifS.jpg",
+      "created_at": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 5,
+      "name": "Console PlayStation 5",
+      "description": "Console de videogame de última geração",
+      "category": "Games",
+      "image_url": "https://images.kabum.com.br/produtos/fotos/636960/console-playstation-5-pro-sony-ssd-2tb-controle-sem-fio-dualsense-branco-1000046552_1727095996_gg.jpg",
+      "created_at": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 6,
+      "name": "Kindle Paperwhite",
+      "description": "E-reader com tela de 6.8 polegadas",
+      "category": "Livros",
+      "image_url": "https://m.media-amazon.com/images/G/32/kindle/journeys/Gy8NRipprjG1B2H78rpnoTqOTO6dJJIBgzD7ajpOaoY3D/NjY2OWMyODkt._CB545212590_.jpg",
+      "created_at": "2024-11-23T15:40:00"
+    }
+  ],
+  "prices": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "store_name": "Amazon",
+      "price": 2804.99,
+      "url": "https://www.amazon.com.br/Notebook-Dell-Inspiron-I15-I1300-A30P-Carbono/dp/B0FHCHBRGF/ref=asc_df_B0FHCHBRGF?mcid=7829c25fec253c41b49ad1738552a980&tag=googleshopp00-20&linkCode=df0&hvadid=721147801917&hvpos=&hvnetw=g&hvrand=7477556056438643075&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101719&hvtargid=pla-2374768381654&gad_source=1&th=1",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 2,
+      "product_id": 1,
+      "store_name": "Magazine Luiza",
+      "price": 2853.9,
+      "url": "https://www.magazineluiza.com.br/notebook-dell-inspiron-15-i15-i1300-a30p-intel-core-i5-8gb-ram-512gb-ssd-15-6-full-hd-windows-11-210-bngc/p/240428300/in/nodl/?&seller_id=magazineluiza&gad_source=1&gad_campaignid=23285716067&gbraid=0AAAAA-KBlnR2FyUPqCVDfUxVf08CDqGik&gclid=EAIaIQobChMI3dfzvY2OkQMVdGBIAB0soTj6EAQYASABEgIPmPD_BwE",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 3,
+      "product_id": 1,
+      "store_name": "Mercado Livre",
+      "price": 2605.22,
+      "url": "https://www.mercadolivre.com.br/notebook-dell-inspiron-i15-i1300-a15p-core-3-8gb-512gb-w11-preto/p/MLB52728444?pdp_filters=item_id%3AMLB5512463698&from=gshop&matt_tool=39226283&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=23233871478&matt_ad_group_id=188007922509&matt_match_type=&matt_network=g&matt_device=c&matt_creative=783149647178&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098639&matt_product_id=MLB52728444-product&matt_product_partition_id=2448954574294&matt_target_id=pla-2448954574294&cq_src=google_ads&cq_cmp=23233871478&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=23233871478&gbraid=0AAAAAD93qcADE2tAihoZW0dgn1ljyXb99&gclid=EAIaIQobChMI7b68nI2OkQMVmmlIAB20LxftEAQYASABEgK2IfD_BwE",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 4,
+      "product_id": 2,
+      "store_name": "Apple Store",
+      "price": 3652.95,
+      "url": "https://www.apple.com/shop/product/ftqm3ll/a/Refurbished-iPhone-15-Pro-128GB-Black-Titanium-Unlocked?fnode=ac54e4088f87017c46e2cdff529f9b4f48cb89a407fa85ba6db81f7c1e4b38056ee62bf0e25c753e503f3cf90f2d7c216e17cd79234d4979e165f0d0b61a845e1023587fb44e42cccd3208934ff8b4985208b26d126ed9550073144abd732c26",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 5,
+      "product_id": 2,
+      "store_name": "Mercado Livre",
+      "price": 6499.0,
+      "url": "https://www.mercadolivre.com.br/apple-iphone-15-pro-128-gb-titnio-branco/p/MLB27172707?pdp_filters=item_id%3AMLB5896154686&from=gshop&matt_tool=39226283&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=23233871478&matt_ad_group_id=191662810714&matt_match_type=&matt_network=g&matt_device=c&matt_creative=783823692175&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098660&matt_product_id=MLB27172707-product&matt_product_partition_id=2448943957129&matt_target_id=pla-2448943957129&cq_src=google_ads&cq_cmp=23233871478&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=4&gad_campaignid=23233871478&gbraid=0AAAAAD93qcBm2VUIdW8uflBO0mMVZJ4l7&gclid=EAIaIQobChMI3bfEmpCOkQMVU2tIAB2q8hTEEAQYBCABEgJ2wPD_BwE",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 6,
+      "product_id": 2,
+      "store_name": "Amazon",
+      "price": 8369.1,
+      "url": "https://www.amazon.com.br/Apple-iPhone-15-Pro-128/dp/B0CHXRHSLC",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 7,
+      "product_id": 3,
+      "store_name": "Carrefour",
+      "price": 2239.0,
+      "url": "https://www.carrefour.com.br/samsung-smart-tv-55-crystal-uhd-4k-u8600f-2025-xbox-cloud-gaming-ai-energy-mode-alexa-integrada-3648575/p?utm_medium=sem&utm_source=google_pmax_1p&utm_campaign=google_pmax_1P_tv_18-02-25&gad_source=4&gad_campaignid=22238936770&gbraid=0AAAAADjinomS-0c-XQCX5i6xNi32_RYWR&gclid=EAIaIQobChMI4K7vkJSOkQMVCVpIAB3rbiPNEAQYByABEgKxCfD_BwE",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 8,
+      "product_id": 3,
+      "store_name": "Info Store",
+      "price": 2087.1,
+      "url": "https://www.infostore.com.br/smart-tv-samsung-55--crystal-uhd-4k-u8600f-2025--bluetooth--wi-fi--gaming-hub--alexa-built-in/p?idsku=11005&gad_source=4&gad_campaignid=21400860611&gbraid=0AAAAADMkZ8n3kltrH1oCnznqbbQu64mIO&gclid=EAIaIQobChMI4K7vkJSOkQMVCVpIAB3rbiPNEAQYAyABEgJenvD_BwE",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 9,
+      "product_id": 3,
+      "store_name": "Amazon",
+      "price": 2212.55,
+      "url": "https://www.amazon.com.br/Samsung-Smart-Crystal-U8100F-2025/dp/B0F5X5GYK3/ref=asc_df_B0F5X5GYK3?mcid=5614db737ba6340ab5e844ee1cb88940&tag=googleshopp00-20&linkCode=df0&hvadid=709964502896&hvpos=&hvnetw=g&hvrand=17590745645778231225&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101719&hvtargid=pla-2422089150695&psc=1&language=pt_BR&gad_source=1",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 10,
+      "product_id": 4,
+      "store_name": "Amazon",
+      "price": 197.0,
+      "url": "https://www.amazon.com.br/JBL-Fone-Ouvido-Tune-520BT/dp/B0C3V5X3QT/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2EB8VKEF5W6VT&dib=eyJ2IjoiMSJ9.gswu0K-ctR8IdIv5n24YGHNAl8kyV94gqoUSnI-qB3XfuA0sPgJlx7MvQyWRCyLqQB-TFNRgGOC73ZlXkzoR9m63AVrF00BlCaBgu3VpH1LN8vquter-mNRxcmKhoUdB_qXn9mb0ockGaMokWD_DnT-GwGvK5eWj1xV9ZbZPdjDeDG6W9mZQhv8kGT7NmIo-iunclbys56DkdvhvFc2wEIjkmSyRcitzQB33HKqIaVrODwkrHQK-5F3IUaE02d_fYDRrWuE71xywLb0ucHZO8nqtGW4s4ZJdhGlS6FwyKJI.WkNsQUbiUNcjvh2qTVm5tWXC_wnbCruVOAwQjgdAoTg&dib_tag=se&keywords=JBL%2C%2BFone%2Bde%2BOuvido%2C%2BHeadset%2BTune%2B510BT&qid=1764102509&s=electronics&sprefix=%2Celectronics%2C302&sr=1-5&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577&th=1",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 11,
+      "product_id": 4,
+      "store_name": "Ramsons",
+      "price": 240.87,
+      "url": "https://www.ramsons.com.br/headphone-jbl-tune-520bt-bluetooth-bateria-recarregavel-microfone-integrado-00082853-p26120?utm_source=google&utm_medium=cpc&utm_campaign=lojavirtual&gad_source=4&gad_campaignid=23092638143&gbraid=0AAAAADzJ0sK8xBwKx33AJw6Iy8qYrgV58&gclid=EAIaIQobChMImJ3zmZKOkQMVomNIAB30UgmJEAQYAyABEgJxYvD_BwE",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 12,
+      "product_id": 4,
+      "store_name": "Loja JBL",
+      "price": 239.0,
+      "url": "https://www.jbl.com.br/JBLT520BTBLK.html?src=SMART&gad_source=4&gad_campaignid=22105260605&gbraid=0AAAAADi4G_jFBU3ItGNg4Qb2pDsAZjl9g&gclid=EAIaIQobChMIgMuR0ZGOkQMVQlRIAB3aURvDEAQYAyABEgIY0_D_BwE",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 13,
+      "product_id": 5,
+      "store_name": "Amazon",
+      "price": 2699.1,
+      "url": "https://www.amazon.com.br/PlayStation%C2%AE5-Slim-Digital-825GB-Turismo/dp/B0FPGF9J2J/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=PATD8G0J63HS&dib=eyJ2IjoiMSJ9.uB8yHPnUpxJ2PuB6kX3FDzaMH_WSC7hkpQcaUbcz3WdumIV6_E1w-Bu2gQ-aRDo_Z397T3ZhEpxCoWwZzXwloy1Y20tZkawTcXucMcmyJ3mta2ynZi3TapWn7sN28PUmvsFCuJ-_MM7T9Vn5ifYPo6_U3_ljtkUqmYpcWQpbnbQqd3wt_oMwmxrcxldWAoEmX-4ybukJ6AWJFIyVHlkgK4qxKq-WzBYBZAkK3L_Jg3LQ-G51er3TAvMNZzF_gI1_byUF8raXE8gw0B2MkHe4AtC2a2ZXD6SqulbXGvYZ_tY.M1-SNnliz-P4FL5RfAJa4PgHEkhPSZ_MvrftsT9F74s&dib_tag=se&keywords=ps5%2Bdigital&qid=1764100941&sprefix=amazon%2Bps5%2Bdigital%2Caps%2C256&sr=8-2&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6&th=1",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 14,
+      "product_id": 5,
+      "store_name": "Magazine Luiza",
+      "price": 2699.1,
+      "url": "https://www.magazineluiza.com.br/console-sony-playstation-5-edicao-digital-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais/p/ahbeahgga9/ga/otga/?&seller_id=kabum&utm_source=google&utm_medium=cpc&utm_term=79704&utm_campaign=google_eco_per_ven_pla_tc_apo_3p_ea-ga-tb-wea-csp&utm_content=&partner_id=79704&gclsrc=aw.ds&gad_source=1&gad_campaignid=22589506492&gbraid=0AAAAAD4zZmTUrr42RZJEHzr-qxm_NxFf1&gclid=EAIaIQobChMIpeiqsYuOkQMVnyNECB2zsSr3EAQYASABEgLjQPD_BwE",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 15,
+      "product_id": 5,
+      "store_name": "Fast Shop",
+      "price": 2808.81,
+      "url": "https://site.fastshop.com.br/console-playstation-5-slim-digital-825gb-123074-130472/p",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 16,
+      "product_id": 6,
+      "store_name": "Amazon",
+      "price": 721.05,
+      "url": "https://www.amazon.com.br/kindle-paperwhite/dp/B0CFPL6CFY/ref=asc_df_B0CFPL6CFY?mcid=74c5779da7be3def9963b99c4448939c&tag=googleshopp00-20&linkCode=df0&hvadid=717799259170&hvpos=&hvnetw=g&hvrand=15536462232025237522&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101719&hvtargid=pla-2371279208080&psc=1&language=pt_BR&gad_source=4",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 17,
+      "product_id": 6,
+      "store_name": "Kabum",
+      "price": 702.9,
+      "url": "https://www.kabum.com.br/produto/704089/amazon-kindle-paperwhite-16gb-preto-b0cfpl6c?gclsrc=aw.ds&&utm_id=21434223541&gad_source=4&gad_campaignid=21423803016&gbraid=0AAAAADx-HyH-6IX9FNTiPYj_ro667nFir&gclid=EAIaIQobChMIzeeE55WOkQMVwF9IAB2xPDgFEAQYByABEgJc7fD_BwE",
+      "last_updated": "2024-11-23T15:40:00"
+    },
+    {
+      "id": 18,
+      "product_id": 6,
+      "store_name": "Fast Shop",
+      "price": 639.0,
+      "url": "https://site.fastshop.com.br/amazon-kindle-paperwhite-16gb--preto---b0cfpl6c-a6b0cfpl6cpto_prd/p?idsku=70613&utm_source=google&utm_medium=cpc&utm_term=pmax_1p&utm_campaign=22752974876&gad_source=4&gad_campaignid=22752974876&gclid=EAIaIQobChMIxL_Kr5WOkQMV42lIAB35ThTmEAQYBCABEgJtOvD_BwE",
+      "last_updated": "2024-11-23T15:40:00"
+    }
+  ],
+  "partner_stores": [],
+  "clicks": [],
+  "_metadata": {
+    "next_user_id": 4,
+    "next_product_id": 7,
+    "next_price_id": 19,
+    "next_partner_id": 1,
+    "next_click_id": 1
+  }
+}
